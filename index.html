@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Habits</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="./src/img/logo.svg" alt="logo" />
+        <h1>Habits</h1></a>
+      </div>
+      <button>
+            <img src="./src/img/Plus.svg" alt="botão de mais" />
+        <div>
+            Registrar meu dia
+        </div>
+      </button>
+    </header>
+
+    <form id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="run">
+          <img src="./src/img/runner.png" alt="#" />
+        </div>
+        <div class="habit" data-name="water">
+          <img src="./src/img/glass-of-water.png" alt="#" />
+        </div>
+        <div class="habit" data-name="food">
+          <img src="./src/img/diet.png" alt="#" />
+        </div>
+        <div class="habit" data-name="studies">
+          <img src="./src/img/pilha-de-livros.png" alt="#" />
+        </div>
+        <div class="habit" data-name="programming">
+          <img src="./src/img/programming.png" alt="#" />
+        </div>
+        <div class="habit" data-name="job">
+          <img src="./src/img/job.png" alt="#" />
+        </div>
+        <div class="habit" data-name="pets">
+          <img src="./src/img/pets.png" alt="#" />
+        </div>
+        
+      </div>
+      <div class="days"></div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
